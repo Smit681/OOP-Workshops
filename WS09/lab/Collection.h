@@ -1,3 +1,10 @@
+// Workshop 9:
+// Version: 1.1 
+//      added template signature to the return
+//      type of add function      
+// Date: 11/23/2020
+// Author: Fardad Soleimanloo
+/////////////////////////////////////////////
 #ifndef SDDS_COLLECTION_H_
 #define SDDS_COLLECTION_H_
 namespace sdds {
@@ -12,7 +19,7 @@ namespace sdds {
       int size()const;
       void resize(int newsize);
       T& operator[](int index);
-      Collection& add(const T& element);
+      Collection<T>& add(const T& element);
       ~Collection();
    };
 
