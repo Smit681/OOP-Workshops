@@ -1,5 +1,5 @@
 # Workshop #9: Function Templates
-Version 0.9 (submission is not open)
+Version 1.0 
 
 In this workshop, you are to code a function template to search through a compound type array and insert the matches found in the array, into a Collection of the same compound type.
 
